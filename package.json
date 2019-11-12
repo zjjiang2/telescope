@@ -21,6 +21,7 @@
     "bull": "^3.11.0",
     "dotenv": "^8.2.0",
     "feedparser-promised": "^2.0.1",
+    "jsdom": "^15.2.1",
     "sentiment": "^5.0.2"
   },
   "devDependencies": {
