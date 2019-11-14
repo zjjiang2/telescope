@@ -1,16 +1,11 @@
-const jsdom = require("jsdom");
+const jsdom = require('jsdom');
 
 const { JSDOM } = jsdom;
 
-//const dom = new JSDOM(`<!DOCTYPE html><p>Hello world</p>`);
-//console.log(dom.window.document.querySelector("p").textContent); // "Hello world"
- 
+
 exports.run = async function (html) {
-  try {
-    
-  }
-  catch(error){
-    
-  }
- 
-}
+  const dom = new JSDOM(html);
+  const result = dom.window.document.querySelector('body').textContent;
+
+  return Promise.resolve(result);
+};
