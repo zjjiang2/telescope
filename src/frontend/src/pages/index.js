@@ -7,7 +7,7 @@ import BackToTopButton from '../components/BackToTopButton';
 import { useFavIcon } from '../components/Favicon/FaviconProvider.jsx';
 
 export default function IndexPage() {
-  useFavIcon('../images/favicon-dot.svg');
+  useFavIcon('../components/Favicon/favicon-dot.svg');
   return (
     <PageBase title="Home">
       <Banner />

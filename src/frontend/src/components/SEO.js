@@ -5,7 +5,7 @@ import useSiteMetadata from '../hooks/use-site-metadata';
 import { FavIconProvider } from './Favicon/FaviconProvider.jsx';
 import usePageLifecycle from './Favicon/usePageLifecycle';
 import favicon from '../../public/favicon.svg';
-import faviconDot from '../../public/favicon-dot.svg';
+import faviconDot from './Favicon/favicon-dot.svg';
 
 function SEO({ description, lang, meta, title }) {
   const siteMetadata = useSiteMetadata();
